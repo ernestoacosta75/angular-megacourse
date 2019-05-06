@@ -1,0 +1,164 @@
+!SESSION 2019-05-06 19:11:09.770 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-06 19:11:44.042
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-06 19:11:45.516
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-06 19:13:23.983 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-06 19:13:29.899
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-06 19:13:32.557
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-05-06 19:18:54.040 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2019-05-06 19:19:14.930
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-05-06 19:19:14.930
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-06 19:19:15.195
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-06 19:19:16.627
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-06 19:19:19.301
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:21.358
+!MESSAGE CodeMix Engine needs to be installed; new installation
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:25.223
+!MESSAGE Initializing CodeMix Engine's settings file at /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/.metadata/codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:25.228
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-06 19:19:30.720
+!MESSAGE Removing CodeMix editor for diff
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-06 19:19:30.722
+!MESSAGE Removing CodeMix editor for git-rebase
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-06 19:19:30.723
+!MESSAGE Removing CodeMix editor for git-commit
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:30.784
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.angular.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:31.153
+!MESSAGE Installing codemix.angular.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:31.403
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.auto-close-tag.0.5.6.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:33.441
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/mkaufman.HTMLHint.0.6.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:33.442
+!MESSAGE Installing formulahendry.auto-close-tag.0.5.6.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:38.248
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/ms-vscode.vscode-typescript-tslint-plugin.1.0.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:38.248
+!MESSAGE Installing mkaufman.HTMLHint.0.6.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:39.075
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.web.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:39.225
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/christian-kohler.path-intellisense.1.4.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:39.645
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.node.0.9.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:39.781
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.code-runner.0.9.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:40.724
+!MESSAGE Installing ms-vscode.vscode-typescript-tslint-plugin.1.0.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:40.921
+!MESSAGE Installing codemix.web.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:41.026
+!MESSAGE Installing christian-kohler.path-intellisense.1.4.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:41.124
+!MESSAGE Installing codemix.node.0.9.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:43.745
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/msjsdiag.debugger-for-chrome.4.11.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:43.745
+!MESSAGE Installing formulahendry.code-runner.0.9.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:46.662
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/Angular.ng-template.0.1.11.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:19:46.662
+!MESSAGE Installing msjsdiag.debugger-for-chrome.4.11.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:10.864
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/dbaeumer.vscode-eslint.1.8.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:10.865
+!MESSAGE Installing Angular.ng-template.0.1.11.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:11.179
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/johnpapa.Angular2.7.0.1.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:14.962
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/xabikos.JavaScriptSnippets.1.7.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:15.104
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.auto-rename-tag.0.0.15.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:15.420
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/bradgashler.htmltagwrap.0.0.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:16.926
+!MESSAGE Installing dbaeumer.vscode-eslint.1.8.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:17.021
+!MESSAGE Installing johnpapa.Angular2.7.0.1.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:17.159
+!MESSAGE Installing xabikos.JavaScriptSnippets.1.7.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:17.241
+!MESSAGE Installing formulahendry.auto-rename-tag.0.0.15.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:18.737
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.typescript.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:18.737
+!MESSAGE Installing bradgashler.htmltagwrap.0.0.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:18.885
+!MESSAGE Installing codemix.typescript.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-06 19:20:21.471
+!MESSAGE The CodeMix Engine is being restarted to pick up latest extension changes

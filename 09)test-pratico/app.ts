@@ -1,7 +1,7 @@
 
 // Uso de Let y Const
-let nombre = "Ricardo Tapia";
-let edad = 23;
+let nombre:string = "Ricardo Tapia";
+let edad:number = 23;
 
 const PERSONAJE = {
   nombre: nombre,
@@ -11,8 +11,8 @@ const PERSONAJE = {
 
 // Cree una interfaz que sirva para validar el siguiente objeto
 interface Avenger {
-  nombre:string,
-  artesMarciales:string[]
+  nombre:string;
+  artesMarciales:string[];
 }
 
 let batman:Avenger = {
@@ -21,22 +21,25 @@ let batman:Avenger = {
 }
 
 // Convertir esta funcion a una funcion de flecha
-function resultadoDoble( a:number, b:number ){
-  return (a + b) * 2
-}
+// function resultadoDoble( a:number, b:number ){
+//   return (a + b) * 2
+// }
 
-(a:number, b:number) => { return (a + b) * 2 }
+let resultadoDoble = (a:number, b:number) => (a + b) * 2 
 
 // Función con parametros obligatorios, opcionales y por defecto
 // donde NOMBRE = obligatorio
 //       PODER  = opcional
 //       ARMA   = por defecto = "arco"
 function getAvenger( nombre:string, poder?:string, arma:string = "arco" ){
-  var mensaje;
+  let mensaje:string;
+
   if( poder ){
-     mensaje = nombre + " tiene el poder de: " + poder + " y un arma: " + arma;
+     //mensaje = nombre + " tiene el poder de: " + poder + " y un arma: " + arma;
+     mensaje = `${ nombre } tiene el poder de: ${ poder } y un arma ${ arma }`; 
   }else{
-     mensaje = nombre + " tiene un " + poder
+     //mensaje = nombre + " tiene un " + poder
+     mensaje = `${ nombre } tiene un ${ poder }`;
   }
 };
 
@@ -56,7 +59,7 @@ class Rectangulo {
     this.altura = altura;
   }
 
-  area() {
+  area():number {
     return this.base * this.altura;
   }
 }

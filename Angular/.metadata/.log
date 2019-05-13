@@ -1,0 +1,485 @@
+!SESSION 2019-05-13 20:38:38.100 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2019-05-13 20:38:44.850
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-05-13 20:38:44.850
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-13 20:38:45.164
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-13 20:38:46.565
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-13 20:38:47.943
+!MESSAGE Initializing CodeMix Engine's settings file at /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/.metadata/codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-13 20:38:47.948
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-13 20:38:48.062
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:40:59.665
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.667
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:40:59.667
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.667
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-05-13 20:40:59.675
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.675
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:40:59.675
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.675
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:40:59.675
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.676
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2019-05-13 20:40:59.676
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2019-05-13 20:40:59.676
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-05-13 20:41:15.887
+!MESSAGE No route to host (Host unreachable)
+!STACK 0
+java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:86)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:41:36.922
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.923
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:41:36.923
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.923
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-05-13 20:41:36.931
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.931
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:41:36.931
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.931
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:41:36.931
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.931
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2019-05-13 20:41:36.931
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2019-05-13 20:41:36.931
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:43:58.519
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.520
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:43:58.520
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.520
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-05-13 20:43:58.533
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.533
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 20:43:58.533
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.534
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 20:43:58.534
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.534
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2019-05-13 20:43:58.534
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2019-05-13 20:43:58.534
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 23:24:01.381
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.381
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 23:24:01.381
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.381
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-05-13 23:24:01.388
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.389
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 23:24:01.389
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.389
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 23:24:01.389
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.389
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2019-05-13 23:24:01.389
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2019-05-13 23:24:01.389
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 23:24:35.312
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.312
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 23:24:35.312
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.312
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2019-05-13 23:24:35.327
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.327
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-05-13 23:24:35.327
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.327
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 1 com.genuitec.eclipse.code.angular.ui 4 0 2019-05-13 23:24:35.327
+!MESSAGE Could not import Angular CLI Project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at com.genuitec.eclipse.code.angular.ui.project.ImportAngularProjectDataModelOperation.execute(ImportAngularProjectDataModelOperation.java:125)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.327
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2019-05-13 23:24:35.327
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2019-05-13 23:24:35.327
+!MESSAGE /home/ernestoacostacuba/Documenti/Corsi/Udemy/angular-megacourse/Angular/01-hola-mundo overlaps the location of another project: '01-hola-mundo'

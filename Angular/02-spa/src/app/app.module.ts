@@ -15,6 +15,7 @@ import { HeroesService } from "@app/services/heroes.service";
 
 //Routes
 import { AppRoutingModule } from "@app/app-routing.module";
+import { HeroCardComponent } from './components/hero-card/hero-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AppRoutingModule } from "@app/app-routing.module";
     AboutComponent,
     HeroesComponent,
     HeroComponent,
-    SearchComponent
+    SearchComponent,
+    HeroCardComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [HeroesService],

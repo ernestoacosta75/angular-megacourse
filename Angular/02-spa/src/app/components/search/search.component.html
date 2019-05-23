@@ -2,19 +2,14 @@
     Searcher: <small>{{ term }}</small>
 </h1>
 <hr />
-<div class="card-columns">
-    <div class="card animated fadeIn fast" *ngFor="let hero of heroes; let i = index">
-        <img [src]="hero.img" class="card-img-top" [alt]="hero.nombre" />
-        <div class="card-body">
-            <h5 class="card-title">{{ hero.nombre }}</h5>
-            <p class="card-text">
-                {{ hero.bio }}
-            </p>
-            <p class="card-text">
-                <small class="text-muted">{{ hero.aparicion }}</small>
-            </p>
-            <a [routerLink]="['/heroes']" class="btn btn-outline-danger btn-block">Back</a
-      >
+
+<div class="row" *ngIf="heroes.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            There aren't results for the term: {{ term }}
+        </div>
     </div>
-  </div>
+</div>
+<div class="card-columns">
+    <app-hero-card [hero]="hero" [idx]="hero.idx" *ngFor="let hero of heroes"></app-hero-card>
 </div>

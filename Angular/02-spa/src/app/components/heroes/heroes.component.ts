@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { HeroesService, Heroe } from "@app/services/heroes.service";
 import { Router } from "@angular/router";
+import { HeroesService, Heroe } from "@app/services/heroes.service";
 
 @Component({
   selector: "app-heroes",
@@ -23,10 +23,6 @@ export class HeroesComponent implements OnInit {
     console.log(this.heroes);
   }
 
-  /**
-   * To get a single hero.
-   * @param idx
-   */
   getHero(idx: number) {
     this._router.navigate(["/hero", idx]);
   }

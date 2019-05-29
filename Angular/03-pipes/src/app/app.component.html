@@ -50,6 +50,87 @@
                 <td>number: "1.0-2"</td>
                 <td>{{ PI | number: "1.0-2" }}</td>
             </tr>
+            <tr>
+                <td>{{ aNumber }}</td>
+                <td>percent</td>
+                <td>{{ aNumber | percent }}</td>
+            </tr>
+            <tr>
+                <td>{{ aNumber }}</td>
+                <td>percent: "2.2-2"</td>
+                <td>{{ aNumber | percent: "2.2-2" }}</td>
+            </tr>
+            <tr>
+                <td>{{ salary }}</td>
+                <td>currency</td>
+                <td>{{ salary | currency }}</td>
+            </tr>
+            <tr>
+                <td>{{ salary }}</td>
+                <td>currency: "EUR"</td>
+                <td>{{ salary | currency: "EUR" }}</td>
+            </tr>
+            <tr>
+                <td>{{ salary }}</td>
+                <td>currency: "EUR":false</td>
+                <td>{{ salary | currency: "EUR":false }}</td>
+            </tr>
+            <tr>
+                <td>{{ salary }}</td>
+                <td>currency: "4.0-0"</td>
+                <td>{{ salary | currency: "EUR":"symbol":"4.0-0" }}</td>
+            </tr>
+            <tr>
+                <td>{{ salary }}</td>
+                <td>number: ".2-2"</td>
+                <td>{{ salary | number: ".2-2" }}</td>
+            </tr>
+            <tr>
+                <td>{{ promiseValue }}</td>
+                <td>async</td>
+                <td>{{ promiseValue | async }}</td>
+            </tr>
+            <tr>
+                <td>{{ dateInfo }}</td>
+                <td>date</td>
+                <td>{{ dateInfo | date }}</td>
+            </tr>
+            <tr>
+                <td>{{ dateInfo }}</td>
+                <td>date: 'medium'</td>
+                <td>{{ dateInfo | date: "medium" }}</td>
+            </tr>
+            <tr>
+                <td>{{ dateInfo }}</td>
+                <td>date: 'MMMM - dd'</td>
+                <td>{{ dateInfo | date: "MMMM - dd" }}</td>
+            </tr>
+            <tr>
+                <td>{{ dateInfo }}</td>
+                <td>date: 'dd/MM/yyyy'</td>
+                <td>{{ dateInfo | date: "dd/MM/yyyy" }}</td>
+            </tr>
+            <tr>
+                <td>{{ name2 }}</td>
+                <td>capitalize</td>
+                <td>{{ name2 | capitalize }}</td>
+            </tr>
+            <tr>
+                <td>{{ name2 }}</td>
+                <td>capitalize:false</td>
+                <td>{{ name2 | capitalize: false }}</td>
+            </tr>
+            <tr>
+                <td>{{ name }}</td>
+                <td>
+                    pwd: {{ toActivate }}
+                    <br />
+                    <button (click)="toActivate = !toActivate" type="button" class="btn btn-outline-primary">
+            Activate/Desactivate
+          </button>
+                </td>
+                <td>{{ name | pwd: toActivate }}</td>
+            </tr>
         </tbody>
     </table>
 
@@ -57,4 +138,9 @@
     <ul>
         <li *ngFor="let item of numArr | slice: 5:20">{{ item }}</li>
     </ul>
+    <h4>JSON</h4>
+    <pre>{{ hero | json }}</pre>
+
+    <h4>Youtube <small>video</small></h4>
+    <iframe width="560" height="315" [src]="video | safedom: 'https://www.youtube.com/embed/'" frameborder="0" allowfullscreen></iframe>
 </div>

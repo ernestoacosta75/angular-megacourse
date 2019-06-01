@@ -12,6 +12,8 @@ import { SearchComponent } from "@app/components/search/search.component";
 import { ArtistComponent } from "@app/components/artist/artist.component";
 import { NavbarComponent } from "@app/components/shared/navbar/navbar.component";
 
+//Services
+
 @NgModule({
   declarations: [
     AppComponent,

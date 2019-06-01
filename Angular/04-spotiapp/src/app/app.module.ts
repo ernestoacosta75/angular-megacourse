@@ -12,7 +12,8 @@ import { SearchComponent } from "@app/components/search/search.component";
 import { ArtistComponent } from "@app/components/artist/artist.component";
 import { NavbarComponent } from "@app/components/shared/navbar/navbar.component";
 
-//Services
+//Pipes
+import { NoimagePipe } from "./pipes/noimage.pipe";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from "@app/components/shared/navbar/navbar.component"
     HomeComponent,
     SearchComponent,
     ArtistComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimagePipe
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],

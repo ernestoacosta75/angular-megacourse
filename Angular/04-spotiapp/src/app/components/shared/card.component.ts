@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-card",
@@ -7,7 +8,23 @@ import { Component, OnInit, Input } from "@angular/core";
 })
 export class CardComponent implements OnInit {
   @Input() items: any[] = [];
-  constructor() {}
+  constructor(private _router: Router) {}
 
   ngOnInit() {}
+
+  /**
+   * Display the artist data
+   * @param item Artist selected.
+   */
+  displayArtist(item: any) {
+    let artistId;
+
+    if (item.type === "artist") {
+      artistId = item.id;
+    } else if (item.type == "album") {
+      artistId = item.artists[0].id;
+    }
+
+    this._router.navigate(["/artist", artistId]);
+  }
 }

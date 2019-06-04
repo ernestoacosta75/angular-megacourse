@@ -12,6 +12,7 @@ import { SearchComponent } from "@app/components/search/search.component";
 import { ArtistComponent } from "@app/components/artist/artist.component";
 import { NavbarComponent } from "@app/components/shared/navbar/navbar.component";
 import { CardComponent } from "@app/components/shared/card.component";
+import { LoadingComponent } from "@app/components/shared/loading/loading.component";
 
 //Pipes
 import { NoimagePipe } from "./pipes/noimage.pipe";
@@ -24,7 +25,8 @@ import { NoimagePipe } from "./pipes/noimage.pipe";
     ArtistComponent,
     NavbarComponent,
     NoimagePipe,
-    CardComponent
+    CardComponent,
+    LoadingComponent
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],

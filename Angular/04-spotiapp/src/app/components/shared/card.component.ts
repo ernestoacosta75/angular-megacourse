@@ -14,9 +14,9 @@ export class CardComponent implements OnInit {
 
   /**
    * Display the artist data
-   * @param item Artist selected.
+   * @param item Artist ID selected.
    */
-  displayArtist(item: any) {
+  getArtist(item: any) {
     let artistId;
 
     if (item.type === "artist") {
@@ -25,6 +25,7 @@ export class CardComponent implements OnInit {
       artistId = item.artists[0].id;
     }
 
+    console.log(artistId);
     this._router.navigate(["/artist", artistId]);
   }
 }

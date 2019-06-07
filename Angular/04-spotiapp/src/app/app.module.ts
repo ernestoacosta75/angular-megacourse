@@ -15,7 +15,8 @@ import { CardComponent } from "@app/components/shared/card.component";
 import { LoadingComponent } from "@app/components/shared/loading/loading.component";
 
 //Pipes
-import { NoimagePipe } from "./pipes/noimage.pipe";
+import { NoimagePipe } from "@app/pipes/noimage.pipe";
+import { DomseguroPipe } from "@app/pipes/domseguro.pipe";
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { NoimagePipe } from "./pipes/noimage.pipe";
     ArtistComponent,
     NavbarComponent,
     NoimagePipe,
+    DomseguroPipe,
     CardComponent,
     LoadingComponent
   ],

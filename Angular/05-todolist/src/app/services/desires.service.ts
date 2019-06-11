@@ -8,6 +8,10 @@ export class DesiresService {
   lists: List [] = [];
   
   constructor() { 
-    console.log("Service initalized!!")
+    const list1 = new List("Collecting infinity stones");
+    const list2 = new List("Heroes to defeat");
+
+    this.lists.push(list1, list2);
+    console.log(this.lists);
   }
 }

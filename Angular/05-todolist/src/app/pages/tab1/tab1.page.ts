@@ -18,6 +18,8 @@ export class Tab1Page {
 
   /**
    * To navigate to the add page.
+   * The keyword async converts the whole method
+   * in a promise.
    */
   async addList() {
     //this._router.navigateByUrl(this._router.url + "/add");

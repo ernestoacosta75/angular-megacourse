@@ -35,4 +35,21 @@ export class AddPage implements OnInit {
     this.itemName = '';
     this._desiresService.saveInStorage();
   }
+
+  changeStatus(item: ItemList){
+    //This filter returns an array with all items of the list that are pending
+    const pending = this.list.items.filter( itemList => !itemList.complete).length;
+
+    console.log({pending});
+    
+    if(pending === 0) {
+      this.list.terminatedIn = new Date();
+      this.list.completed = true;
+    }
+    else {
+      this.list.terminatedIn = null;
+      this.list.completed = false;
+    }
+    this._desiresService.saveInStorage();
+ }
 }

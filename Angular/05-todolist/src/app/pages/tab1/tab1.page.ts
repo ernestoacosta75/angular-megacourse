@@ -22,7 +22,7 @@ export class Tab1Page {
    * in a promise.
    */
   async addList() {
-    //this._router.navigateByUrl(this._router.url + "/add");
+    
     const alert = await this._alertController.create({
       header: 'New list',
       inputs: [
@@ -49,7 +49,8 @@ export class Tab1Page {
             }
             else {
               //Creating the list
-              this.desiresService.createList(data.title );
+              const listId = this.desiresService.createList(data.title );
+              this._router.navigateByUrl(this._router.url + `/add/${ listId }`);
             }
           }
         }          

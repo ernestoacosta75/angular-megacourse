@@ -20,6 +20,17 @@ export class DesiresService {
     const newList = new List(title);
     this.lists.push(newList);
     this.saveInStorage()
+    
+    return newList.id;
+  }
+
+  /**
+   * Returns the list with that id.
+   * @param listId  List ID
+   */
+  getList( listId: string | number ) {
+    listId = Number(listId);
+    return this.lists.find( theList => theList.id === listId );
   }
 
   /**
@@ -28,7 +39,8 @@ export class DesiresService {
    * the device.
    */
   saveInStorage() {
-    this._storage.set('data', this.lists);
+    //this._storage.set('data', this.lists);
+    localStorage.setItem('data', JSON.stringify(this.lists) );
   }
 
   /**
@@ -36,13 +48,19 @@ export class DesiresService {
    * the local storage.
    */
   loadFromStorage() {
-    if( this._storage.get('data')) {
-      this._storage.get('data').then((val) => {
-        this.lists = val;
-      });
-    }
-    else {
+    if ( localStorage.getItem('data') ) {
+      this.lists = JSON.parse( localStorage.getItem('data') );
+    } else {
       this.lists = [];
-    }    
+    }
+    /**
+      this._storage.get('data').then((val) => {
+        if (val == null) {
+          this.lists = [];
+        }
+        else {
+          this.lists = val;
+        }        
+      }); */
   }
 }

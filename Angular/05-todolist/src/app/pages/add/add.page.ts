@@ -41,7 +41,7 @@ export class AddPage implements OnInit {
     const pending = this.list.items.filter( itemList => !itemList.complete).length;
 
     console.log({pending});
-    
+
     if(pending === 0) {
       this.list.terminatedIn = new Date();
       this.list.completed = true;
@@ -50,6 +50,7 @@ export class AddPage implements OnInit {
       this.list.terminatedIn = null;
       this.list.completed = false;
     }
+    
     this._desiresService.saveInStorage();
  }
 }

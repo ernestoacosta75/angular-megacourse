@@ -59,8 +59,12 @@ export class Tab1Page {
 
     alert.present();
   }
-
-  getAddListPage(list: List) {
+  
+  /**
+   * Redirecting to the add page.
+   * @param list Selected list
+   */
+  getSelectedList(list: List) {
     this._router.navigateByUrl(this._router.url + `/add/${ list.id }`);
   }
 }

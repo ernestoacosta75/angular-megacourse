@@ -18,7 +18,7 @@
     <!--Items added from input "New item" or all list items -->
     <ion-list>
         <ion-list-header color="dark">
-            <ion-label>Task to-do</ion-label>
+            <ion-label *ngIf="list.items.length > 0">Task to-do</ion-label>
         </ion-list-header>
         <ion-item-sliding *ngFor="let item of list.items; let i = index" class="animated fadeInDown">
             <ion-item color="dark">

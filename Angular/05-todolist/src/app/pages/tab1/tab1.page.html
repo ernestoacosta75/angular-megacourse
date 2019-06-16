@@ -7,6 +7,7 @@
 </ion-header>
 
 <ion-content color="dark">
+    <app-list></app-list>
     <ion-list color="dark">
         <ion-item *ngFor="let list of desiresService.lists" detail color="dark" (click)="getSelectedList(list)">
             <ion-label>{{ list.title }}</ion-label>

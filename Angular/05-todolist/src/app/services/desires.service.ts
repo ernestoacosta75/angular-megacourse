@@ -53,6 +53,8 @@ export class DesiresService {
     } else {
       this.lists = [];
     }
+
+    console.log(this.lists);
     /**
       this._storage.get('data').then((val) => {
         if (val == null) {

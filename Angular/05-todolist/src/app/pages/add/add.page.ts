@@ -1,8 +1,9 @@
 import { ItemList } from './../../models/item-list.model';
 import { DesiresService } from './../../services/desires.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { List } from 'src/app/models/list.model';
+import { IonList } from '@ionic/angular';
 
 @Component({
   selector: 'app-add',
@@ -52,5 +53,14 @@ export class AddPage implements OnInit {
     }
     
     this._desiresService.saveInStorage();
+ }
+
+ /**
+  * To delete that item from the list.
+  * @param itemId Item ID 
+  */
+ deleteItem(itemId:number) {
+   this.list.items.splice(itemId);   
+   this._desiresService.saveInStorage();
  }
 }

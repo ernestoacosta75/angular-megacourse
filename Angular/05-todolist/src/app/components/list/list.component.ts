@@ -1,8 +1,8 @@
 import { List } from 'src/app/models/list.model';
 import { Router } from '@angular/router';
 import { DesiresService } from 'src/app/services/desires.service';
-import { Component, OnInit, Input } from '@angular/core';
-import { AlertController } from '@ionic/angular';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { AlertController, IonList } from '@ionic/angular';
 
 @Component({
   selector: 'app-list',
@@ -12,6 +12,7 @@ import { AlertController } from '@ionic/angular';
 export class ListComponent implements OnInit {
 
   @Input() finished = true;
+  @ViewChild( 'ionList' ) list: IonList;
 
   constructor(public desiresServices: DesiresService,
               private _router: Router,
@@ -70,6 +71,7 @@ export class ListComponent implements OnInit {
             else {
               //Updating the list title
               this.desiresServices.updateListTitle(list.title, data.title);
+              this.list.closeSlidingItems();
             }
           }
         }          

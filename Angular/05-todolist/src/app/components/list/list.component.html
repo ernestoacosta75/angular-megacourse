@@ -1,4 +1,4 @@
-<ion-list color="dark">
+<ion-list color="dark" #ionList>
     <ion-item-sliding *ngFor="let list of desiresServices.lists | completedFilter: finished" class="animated fadeInDown">
         <ion-item detail color="dark" (click)="getSelectedList(list)">
             <ion-label>{{ list.title }}</ion-label>

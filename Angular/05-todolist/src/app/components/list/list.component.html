@@ -1,6 +1,13 @@
 <ion-list color="dark">
-    <ion-item *ngFor="let list of desiresServices.lists" detail color="dark" (click)="getSelectedList(list)">
-        <ion-label>{{ list.title }}</ion-label>
-        <ion-note color="tertiary" slot="end">{{ list.items.length }}</ion-note>
-    </ion-item>
+    <ion-item-sliding *ngFor="let list of desiresServices.lists" class="animated fadeInDown">
+        <ion-item detail color="dark" (click)="getSelectedList(list)">
+            <ion-label>{{ list.title }}</ion-label>
+            <ion-note color="tertiary" slot="end">{{ list.items.length }}</ion-note>
+        </ion-item>
+        <ion-item-options side="end">
+            <ion-item-option (click)="deleteList(list)" color="danger">
+                <ion-icon slot="icon-only" name="trash"></ion-icon>
+            </ion-item-option>
+        </ion-item-options>
+    </ion-item-sliding>
 </ion-list>

@@ -1,5 +1,5 @@
+import { List } from 'src/app/models/list.model';
 import { Injectable } from '@angular/core';
-import { List } from '../models/list.model';
 import { Storage } from '@ionic/storage';
 
 @Injectable({
@@ -22,6 +22,15 @@ export class DesiresService {
     this.saveInStorage()
     
     return newList.id;
+  }
+
+  /**
+   * Delete that list from the array.
+   * @param list List to delete.
+   */
+  deleteList(list: List) {
+    this.lists = this.lists.filter( listData => listData.id !== list.id);
+    this.saveInStorage();
   }
 
   /**

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { DesiresService } from 'src/app/services/desires.service';
-import { List } from 'src/app/models/list.model';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 
@@ -59,12 +58,5 @@ export class Tab1Page {
 
     alert.present();
   }
-  
-  /**
-   * Redirecting to the add page.
-   * @param list Selected list
-   */
-  getSelectedList(list: List) {
-    this._router.navigateByUrl(this._router.url + `/add/${ list.id }`);
-  }
+
 }

@@ -13,8 +13,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../tab1/tab1.module#Tab1PageModule'
-          },
-          
+          },          
           {
             path: 'add/:listId',
             loadChildren: '../add/add.module#AddPageModule'
@@ -27,7 +26,11 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../tab2/tab2.module#Tab2PageModule'
-          }
+          },
+          {
+            path: 'add/:listId',
+            loadChildren: '../add/add.module#AddPageModule'
+          }          
         ]
       },
       {

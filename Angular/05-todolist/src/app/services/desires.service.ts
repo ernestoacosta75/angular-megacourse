@@ -25,6 +25,25 @@ export class DesiresService {
   }
 
   /**
+   * To update the title of the list with the currentListTitle.
+   * @param currentListTitle 
+   * @param newListTitle 
+   */
+  updateListTitle(currentListTitle: string, newListTitle: string) {
+    this.lists.map( listData => {
+      if(listData.title === currentListTitle) {
+        listData.title = newListTitle;
+        return listData.title;
+      }
+      else {
+        return listData;
+      }
+    });
+
+    this.saveInStorage();
+  }
+
+  /**
    * Delete the selected list.
    * @param list 
    */

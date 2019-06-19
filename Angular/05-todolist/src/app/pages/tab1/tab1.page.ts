@@ -1,3 +1,4 @@
+import { List } from 'src/app/models/list.model';
 import { Component } from '@angular/core';
 import { DesiresService } from 'src/app/services/desires.service';
 import { Router } from '@angular/router';
@@ -16,7 +17,7 @@ export class Tab1Page {
   }
 
   /**
-   * To navigate to the add page.
+   * To create a new list and navigate to the items add page.
    * The keyword async converts the whole method
    * in a promise.
    */

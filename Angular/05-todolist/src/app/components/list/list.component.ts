@@ -1,7 +1,7 @@
 import { List } from 'src/app/models/list.model';
 import { Router } from '@angular/router';
 import { DesiresService } from 'src/app/services/desires.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.scss'],
 })
 export class ListComponent implements OnInit {
+
+  @Input() finished = true;
 
   constructor(public desiresServices: DesiresService,
               private _router: Router) { }
@@ -22,5 +24,14 @@ export class ListComponent implements OnInit {
   getSelectedList(list: List) {
     this._router.navigateByUrl(this._router.url + `/add/${ list.id }`);
   }
+
+  /**
+   * Delete the selected list.
+   * @param list 
+   */
+  deleteList(list: List) {
+    this.desiresServices.deleteList(list);
+  }
+
 }  
 

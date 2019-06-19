@@ -25,6 +25,15 @@ export class DesiresService {
   }
 
   /**
+   * Delete the selected list.
+   * @param list 
+   */
+  deleteList(list: List) {
+    this.lists = this.lists.filter( listData => listData.id !== list.id);
+    this.saveInStorage();
+  }
+
+  /**
    * Returns the list with that id.
    * @param listId  List ID
    */

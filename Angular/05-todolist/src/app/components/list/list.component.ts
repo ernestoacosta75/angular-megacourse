@@ -22,5 +22,13 @@ export class ListComponent implements OnInit {
   getSelectedList(list: List) {
     this._router.navigateByUrl(this._router.url + `/add/${ list.id }`);
   }
+
+  /**
+   * Delete that list based on its ID.
+   * @param list List to delete.
+   */
+  deleteList(list: List) {
+    this.desiresServices.deleteList(list);
+  }
 }  
 

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 
 //Components
 import { NgStyleComponent } from '@app/components/ng-style/ng-style.component';
-import { CssComponent } from './components/css/css.component';
+import { CssComponent } from '@app/components/css/css.component';
+import { ClassesComponent } from '@app/components/classes/classes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
-    CssComponent
+    CssComponent,
+    ClassesComponent
   ],
   imports: [
     BrowserModule,

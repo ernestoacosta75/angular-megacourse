@@ -7,23 +7,20 @@ import { DetailsUserComponent } from '@app/components/user/details-user.componen
 
 const USER_ROUTES: Routes = [
   {
-    path: 'user', 
+    path: 'user/:id', 
     component: UserComponent,
     children: [
       {
-        path: 'new-user',
-        component: NewUserComponent
+        path: 'new', component: NewUserComponent
       },
       {
-        path: 'edit-user',
-        component: EditUserComponent
+        path: 'edit', component: EditUserComponent
       },
       {
-        path: 'details-user',
-        component: DetailsUserComponent
-      }            
+        path: 'details', component: DetailsUserComponent
+      },
+      {path: '**', pathMatch: 'full', redirectTo: 'new'}            
     ]}
-
 ];
 
 @NgModule({

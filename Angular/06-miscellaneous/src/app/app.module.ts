@@ -13,8 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 
 //Directives
 import { HighlightedDirective } from '@app/directives/highlighted.directive';
-import { DetailsUserComponent } from '@app/components/user/details-user.component';
-import { UserModule } from '@app/user/user.module';
+import { UserModule } from '@app/components/user/user.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 
